@@ -121,9 +121,121 @@ ul li{
     color: #0a0a0a;
 }
 /*what-we-offer section css end*/
-
-
-
+/*gallery-section section css start*/
+.gallery-section{
+	width: 100%;
+}
+.gallery-section .gallery-content {
+    margin-bottom: 0px;
+    border-radius: inherit;
+    overflow: hidden;
+    border: none;
+}
+.gallery-section .gallery-content-image {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+.gallery-section .gallery-content .overlay{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 0%;
+	background:rgba(0,0,0,.8);
+	transition: .6s linear;
+	opacity: 0;
+}
+.gallery-section .gallery-content .overlay a{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.gallery-section .gallery-content .overlay a i:hover{
+	font-size: 45px;
+	cursor: pointer;
+	transition: .6s linear;
+}
+.gallery-section .gallery-content:hover .overlay{
+	height: 100%;
+	opacity: 1;
+}
+/*gallery-section section css end*/
+/*crew-section css start*/
+.crew-section {
+    text-align: center;
+    width: 100%;
+    background: #fff;
+    padding: 80px 0px;
+}
+.crew-section .crew-heading h2{
+    font-size: 44px;
+    color: #000000;
+    font-weight: 600;
+    line-height: 55px;
+    padding-bottom: 10px;
+}
+.crew-section .crew-item img {
+    width: 160px;
+    height: 160px;
+}
+.crew-section .crew-item h5 {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 15px 0px 10px 0px;
+}
+.crew-section .crew-item h3 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+/*crew-section css end*/
+/*about us section css start*/
+.about-us-section{
+	width: 100%;
+	padding: 120px 0px;
+	background: url(../img/about-bg.png) top center no-repeat;
+	background-size: cover;
+}
+.about-us-section .about-us-title h2 {
+    font-size: 44px;
+    color: #000000;
+    font-weight: 600;
+    line-height: 50px;
+}
+.about-us-section .about-us-title p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #272727;
+}
+.about-us-section .block{ 
+	width: 100%;
+	color:#000000; 
+	text-align: left; 
+}
+.about-us-section .block p { 
+	margin: 0; 
+}
+.about-us-section .block p i{ 
+	font-size: 40px; 
+	color: #000000; 
+}
+.about-us-section .counter-wrapper {
+    color: #ff690f;
+    font-weight: 900;
+    font-size: 38px;
+}
+.about-us-section .text-block {
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+    text-transform: uppercase;
+}
+/*about us section css end*/
 
 
 
