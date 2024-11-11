@@ -1,0 +1,162 @@
+/*Global css file*/
+*{
+	padding: 0px 0px;
+	margin: 0px auto;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Roboto', sans-serif;
+}
+.no-padding{
+	padding: 0px !important;
+	margin: 0px 0px !important;
+}
+ul li{
+	list-style: none;
+}
+/*header section css start*/
+.header-section{
+	background: url(../img/header-bg.png) top center no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.header-section .navbar-brand img{
+	width: 100%;
+}
+.header-section .bg-light {
+   background-color: transparent !important;
+}
+.header-section .mb-lg-0 {
+    padding-left: 280px;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    padding: 0px 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ff690f;
+}
+.header-section .header-inner-section {
+    padding: 275px 0px 280px 0px;
+    width: 100%;
+}
+.header-section .header-inner-section p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.header-section .header-inner-section .btn-danger {
+    background: #ff690f;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 8px 20px;
+    border: 1px solid #ff690f;
+    border-radius: 3px;
+}
+.header-section .header-inner-section .btn-danger:hover {
+    background: transparent;
+    transition: 0.6s;
+    cursor: pointer;
+    color: #fff;
+}
+/*header section css end*/
+/*what-we-offer section css start*/
+.what-we-offer {
+    width: 100%;
+    text-align: center;
+    background: #f7f7f7;
+    padding-bottom: 110px;
+}
+.what-we-offer .what-we-offer-heading {
+    padding: 45px 0px 20px 0px;
+}
+.what-we-offer .what-we-offer-heading h2 {
+    font-size: 44px;
+    color: #000000;
+    font-weight: 600;
+    line-height: 55px;
+    padding-bottom: 10px;
+}
+.what-we-offer .what-we-offer-heading p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.what-we-offer .what-we-offer-content img {
+    height: 170px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+.what-we-offer .what-we-offer-content h3 {
+    font-size: 12px;
+    line-height: 22px;
+    margin: 10px auto;
+}
+.what-we-offer .what-we-offer-content p {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+    line-height: 30px;
+    padding-bottom: 5px;
+}
+.what-we-offer .what-we-offer-content .btn-danger{
+    background: #ff690f;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border: 1px solid #ff690f;
+    border-radius: 3px;
+}
+.what-we-offer .what-we-offer-content .btn-danger:hover{
+    transition: 0.6s;
+    cursor: pointer;
+    color: #0a0a0a;
+}
+/*what-we-offer section css end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
