@@ -283,38 +283,46 @@ ul li{
     color: #fff!important;
 }
 /*TESTIMONIALS section css end*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*footer section css start*/
+.footer-section{
+	width: 100%;
+	background: #2f2f2f;
+}
+.footer-section .footer-left {
+    width: 100%;
+    padding: 30px 0px 0px 0px;
+}
+.footer-section .footer-left h2 {
+    font-size: 44px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 60px;
+}
+.footer-section .footer-left ul li a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+}
+.footer-section .footer-left ul li a i {
+    padding-right: 10px;
+    font-size: 12px;
+    color: red;
+}
+.footer-section .footer-left .social-item {
+	padding-top: 10px;
+}
+.footer-section .footer-left .social-item ul li {
+    display: inline;
+    font-size: 23px;
+    color: #1a9483;
+    padding-right: 10px;
+}
+.footer-section .footer-right{
+	width: 100%;
+}
+/*footer section css end*/
 
 
