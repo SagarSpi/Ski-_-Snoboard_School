@@ -24,7 +24,7 @@ ul li{
 	width: 70%;
 }
 .header-section .bg-light {
-   background-color: #2e5386 !important;
+    background: linear-gradient(90deg, rgb(46 83 134) 0%, rgb(46 83 134) 24%, rgb(53 94 144) 49%, rgb(46 83 134) 71%, rgb(46 83 134) 100%);
 }
 .header-section .mb-lg-0 {
     padding-left: 280px;
